@@ -7,4 +7,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HFTEngine.MarketDataHandler\HFTEngine.MarketDataHandler.csproj" />
+    <ProjectReference Include="..\HFTEngine.OrderManager\HFTEngine.OrderManager.csproj" />
+    <ProjectReference Include="..\HFTEngine.RiskManager\HFTEngine.RiskManager.csproj" />
+    <ProjectReference Include="..\HFTEngine.StrategyEngine\HFTEngine.StrategyEngine.csproj" />
+  </ItemGroup>
+
 </Project>

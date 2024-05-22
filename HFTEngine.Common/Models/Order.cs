@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HFTEngine.StrategyEngine.Model
+namespace HFTEngine.Common
 {
     public class Order
     {

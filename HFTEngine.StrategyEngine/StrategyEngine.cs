@@ -1,9 +1,7 @@
-﻿using HFTEngine.MarketDataHandler.Model;
-using HFTEngine.StrategyEngine.Enums;
-using HFTEngine.StrategyEngine.Model;
+﻿using HFTEngine.Common;
 using System;
 
-namespace HFTEngine.StrategyEngine
+namespace HFTEngine
 {
     public class StrategyEngine
     {

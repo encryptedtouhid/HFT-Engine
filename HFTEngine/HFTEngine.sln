@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFTEngine.Main", "HFTEngine.Main.csproj", "{C0704AF5-431A-4EA5-B822-355D6BB4816D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFTEngine.Main", "HFTEngine.Main.csproj", "{C0704AF5-431A-4EA5-B822-355D6BB4816D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFTEngine.MarketDataHandler", "..\HFTEngine.MarketDataHandler\HFTEngine.MarketDataHandler.csproj", "{CA4BFA3B-0000-4001-9F7F-914913947648}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFTEngine.MarketDataHandler", "..\HFTEngine.MarketDataHandler\HFTEngine.MarketDataHandler.csproj", "{CA4BFA3B-0000-4001-9F7F-914913947648}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFTEngine.StrategyEngine", "..\HFTEngine.StrategyEngine\HFTEngine.StrategyEngine.csproj", "{71988758-3CE9-48C1-955E-5B11F5649501}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFTEngine.StrategyEngine", "..\HFTEngine.StrategyEngine\HFTEngine.StrategyEngine.csproj", "{71988758-3CE9-48C1-955E-5B11F5649501}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFTEngine.OrderManager", "..\HFTEngine.OrderManager\HFTEngine.OrderManager.csproj", "{E5655A57-A607-437A-9BBA-897135CDB3A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFTEngine.OrderManager", "..\HFTEngine.OrderManager\HFTEngine.OrderManager.csproj", "{E5655A57-A607-437A-9BBA-897135CDB3A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFTEngine.RiskManager", "..\HFTEngine.RiskManager\HFTEngine.RiskManager.csproj", "{9B997749-F55B-4CEA-A6FE-BFB54D5AB5FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFTEngine.RiskManager", "..\HFTEngine.RiskManager\HFTEngine.RiskManager.csproj", "{9B997749-F55B-4CEA-A6FE-BFB54D5AB5FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFTEngine.Configuration", "..\HFTEngine.Configuration\HFTEngine.Configuration.csproj", "{846924AE-0C5B-4C4B-AD78-D9E7B9BE5B2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFTEngine.Configuration", "..\HFTEngine.Configuration\HFTEngine.Configuration.csproj", "{846924AE-0C5B-4C4B-AD78-D9E7B9BE5B2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFTEngine.Common", "..\HFTEngine.Common\HFTEngine.Common.csproj", "{5B3C82F3-D942-4366-9548-5776F947BC77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{846924AE-0C5B-4C4B-AD78-D9E7B9BE5B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{846924AE-0C5B-4C4B-AD78-D9E7B9BE5B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{846924AE-0C5B-4C4B-AD78-D9E7B9BE5B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B3C82F3-D942-4366-9548-5776F947BC77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B3C82F3-D942-4366-9548-5776F947BC77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B3C82F3-D942-4366-9548-5776F947BC77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B3C82F3-D942-4366-9548-5776F947BC77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

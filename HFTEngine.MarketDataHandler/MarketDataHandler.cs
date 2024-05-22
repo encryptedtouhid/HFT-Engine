@@ -1,8 +1,8 @@
-﻿using HFTEngine.MarketDataHandler.Model;
+﻿using HFTEngine.Common;
 using System;
 using WebSocketSharp;
 
-namespace HFTEngine.MarketDataHandler
+namespace HFTEngine
 {
     public class MarketDataHandler
     {
@@ -32,6 +32,11 @@ namespace HFTEngine.MarketDataHandler
         {
             // Deserialize JSON data to MarketData object (using JSON.NET or similar library)
             return Newtonsoft.Json.JsonConvert.DeserializeObject<MarketData>(data);
+        }
+
+        public void ProcessIncomingData(MarketData marketData)
+        {
+            throw new NotImplementedException();
         }
     }
 }

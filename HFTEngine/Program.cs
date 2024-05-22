@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace HFTEngine
+{
+    class Program
+    {
+        static void Main()
+        {
+            var engine = new HFTEngine();
+            engine.Start();
+        }
+    }
+}
